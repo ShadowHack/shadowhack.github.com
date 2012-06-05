@@ -1,0 +1,98 @@
+body {
+   background-image: url('../img/hack-503-1600.jpg');
+   background-repeat: no-repeat;
+}
+
+.main {
+   max-width: 970px;
+}
+
+.h1_logo {
+   font-size: 100px;
+   text-shadow: 2px 1px #888;
+   color: white;
+}
+
+.splash {
+   height:157px;
+   padding-top: 140px;
+   text-align: center;
+}
+
+.logo {
+   height: 80px;
+}
+
+.tagline {
+   font-size:25px;
+   font-weight: bold;
+   color: white;
+   text-shadow: 2px 1px #888;
+   line-height: 1.5em;
+}
+
+.june23 {
+   text-align: center;
+   font-size:25px;
+   font-weight: bold;
+   color: white;
+   text-shadow: 2px 1px #888;
+   line-height: 1.5em;
+   height: 42px;
+   padding-bottom: 28px;
+}
+
+.kids12 {
+   padding-bottom: 80px;
+   text-shadow: 0px 0px 5px lightyellow;
+}
+   
+.footer {
+   text-align: center;
+   background-color: #aaa;
+   width: 100%;
+   height:30px;
+   margin-top: 50px;
+   padding-top: 20px;
+   clear: both;
+   color: white;
+}
+
+
+.adopt-button {
+   font-weight: bold;
+   font-size: 26px;
+   margin-top: 55px;
+   margin-bottom: 45px;
+}
+
+.brought_by {
+   border-top: 1px dashed #999;
+   padding-top: 5em;
+   padding-bottom: 5em;
+}
+
+.center {text-align: center;}
+.white {color: white;}
+.whitebg {background-color: white;}
+   
+   
+.btn-green {
+  padding: 1em 2em;
+  background: #65c31f;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  border-color: #57af17;
+  font-weight: bold;
+  background-color: #65c31f;
+  background-image: -moz-linear-gradient(#94d52d, #65c31f);
+  background-image: -o-linear-gradient(#94d52d, #65c31f);
+  background-image: -ms-linear-gradient(#94d52d, #65c31f);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #94d52d), color-stop(1, #65c31f));
+  background-image: -webkit-linear-gradient(#94d52d, #65c31f); }
+
+.btn-green:hover {
+  background-position: 0 0; }
+
+.btn-green:active {
+  background: #65c31f; }
