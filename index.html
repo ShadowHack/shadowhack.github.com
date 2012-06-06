@@ -3,7 +3,7 @@
 <head>
 <title>shadowHACK</title>
 <meta name="author" content="Jared Chung" >
-<meta name="date" content="2012-06-05T22:09:40-0400" >
+<meta name="date" content="2012-06-05T22:21:54-0400" >
 <meta name="copyright" content="CareerVillage">
 <meta name="keywords" content="shadowHACK,shadow,hack,hackathon">
 <meta name="description" content="shadowHACK brings inner city high school kids to hackathons to expose them to the programming world">
@@ -115,11 +115,11 @@
        <p>Click below to volunteer by email. Please include your name and your 
        team's name. </p>
        <br/>
-       <a href="mailto:team@careervillage.org?Subject=I%20volunteer%20for%20shadowHack&body=My%20team%20will%20let%20a%20student%20shadow%20our%20hack%20on%20Saturday%20afternoon%20during%20angelHack.%0D%0A%0D%0AMy%20name%20is%20________%0D%0A%0D%0AMy%20team%20name%20is%20________%0D%0A%0D%0AI%20understand%20that%20the%20shadowHack%20team%20at%20CareerVillage%20will%20contact%20me%20the%20week%20before%20angelHack." class="btn btn-green"><strong>Complete registration</strong> (opens your mail client)</a>
+       <a href="mailto:team@careervillage.org?Subject=I%20volunteer%20for%20shadowHack&body=My%20team%20will%20let%20a%20student%20shadow%20our%20hack%20on%20Saturday%20afternoon%20during%20angelHack.%0D%0A%0D%0AMy%20name%20is%20________%0D%0A%0D%0AMy%20team%20name%20is%20________%0D%0A%0D%0AI%20understand%20that%20the%20shadowHack%20team%20at%20CareerVillage%20will%20contact%20me%20the%20week%20before%20angelHack." class="btn btn-green" onClick="_gaq.push(['_trackEvent', 'Signups', 'Email', 'Submit']);"><strong>Complete registration</strong> (opens your mail client)</a>
        <br/>
      </div>
      <div class="modal-footer">
-       <a href="#" data-dismiss="modal">Cancel</a>
+       <a href="#" data-dismiss="modal" onClick="_gaq.push(['_trackEvent', 'Signups', 'Email', 'Cancel']);">Cancel</a>
      </div>
    </div>
 
@@ -132,10 +132,10 @@
        and registration takes less than a minute.
        <br/>
        <br/>
-       <a target="_blank" class="btn btn-green" href="http://angelhack3nyc.eventbrite.com/?utm_source=shadowhack.com&utm_medium=web&utm_term=&utm_content=&utm_campaign=website">I'm ready to register for angelHack</a></p>
+       <a target="_blank" class="btn btn-green" href="http://angelhack3nyc.eventbrite.com/?utm_source=shadowhack.com&utm_medium=web&utm_term=&utm_content=&utm_campaign=website" onClick="_gaq.push(['_trackEvent', 'Signups', 'Register_For_AngelHack', 'Click_Button']);">I'm ready to register for angelHack</a></p>
      </div>
      <div class="modal-footer cener">
-       <a href="#" data-dismiss="modal">Cancel</a>
+       <a href="#" data-dismiss="modal" onClick="_gaq.push(['_trackEvent', 'Signups', 'Register_For_AngelHack', 'Cancel']);">Cancel</a>
      </div>
    </div>
 
@@ -143,10 +143,10 @@
      <div class="modal-body center">
        <h3>Are you registered for angelHack?</h3>
        <br/>
-       <a data-dismiss="modal" data-toggle="modal" href="#registeredModal" class="btn btn-large btn-green">I am <strong>registered</strong> for angelHack</a>
+       <a data-dismiss="modal" data-toggle="modal" href="#registeredModal" class="btn btn-large btn-green" onClick="_gaq.push(['_trackEvent', 'Signups', 'Second', 'Is_Registered']);">I am <strong>registered</strong> for angelHack</a>
        <br/>
        <br/>
-       <a  data-dismiss="modal" data-toggle="modal" href="#UnregisteredModal" class="btn btn-large btn-green">I am <strong>not registered</strong> for angelHack</a>
+       <a  data-dismiss="modal" data-toggle="modal" href="#UnregisteredModal" class="btn btn-large btn-green" onClick="_gaq.push(['_trackEvent', 'Signups', 'Second', 'Not_Registered']);">I am <strong>not registered</strong> for angelHack</a>
      </div>
      <div class="modal-footer">
        <a href="#" data-dismiss="modal">Close</a>
@@ -155,7 +155,7 @@
 
    <div class="row">
       <div class="span12 center">
-         <a data-toggle="modal" href="#myModal" class="btn btn-large btn-green adopt-button">
+         <a data-toggle="modal" href="#myModal" class="btn btn-large btn-green adopt-button" onClick="_gaq.push(['_trackEvent', 'Signups', 'First', 'First']);">
           Yes, I'm ready to have a student shadow my team! </a>
       </div>
       <div class="span12 center">&nbsp;</div>
