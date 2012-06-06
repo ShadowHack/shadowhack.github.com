@@ -3,7 +3,7 @@
 <head>
 <title>shadowHACK</title>
 <meta name="author" content="Jared Chung" >
-<meta name="date" content="2012-06-03T23:53:32-0400" >
+<meta name="date" content="2012-06-05T22:09:14-0400" >
 <meta name="copyright" content="CareerVillage">
 <meta name="keywords" content="shadowHACK,shadow,hack,hackathon">
 <meta name="description" content="shadowHACK brings inner city high school kids to hackathons to expose them to the programming world">
@@ -13,6 +13,20 @@
 <meta http-equiv="expires" content="0">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32435402-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
